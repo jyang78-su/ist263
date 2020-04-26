@@ -1,0 +1,97 @@
+html {
+  width: 100%;
+}
+header, 
+/* section,  */
+footer {
+  max-width: 900px;
+  margin: 20px auto 0 auto;
+}
+figure,
+article {
+  margin: 0;
+  float: left;
+}
+.flex {
+  display: flex;
+}
+.flex-c {
+  display: flex;
+  justify-content: center;
+}
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-sa {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-ver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-ver-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 400px) {
+  .flex, 
+  .flex-c,
+  .flex-sb, 
+  .flex-sa, 
+  .flex-ver {
+    flex-wrap: wrap;
+  }
+  .flex img, 
+  .flex-c img,
+  .flex-sb img, 
+  .flex-sa img, 
+  .flex-ver img {
+    width: 100%;
+  }
+  #s3 img {
+    width: 50%;
+  }
+}
+/* .btn {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 2px 5px;
+  color: black;
+  font-size: 14px;
+}
+.btn:hover {
+  background: #ccc;
+  color: white;
+} */
+
+.desc {
+  margin-left: 20px;
+}
+.desc p {
+  font-size: 14px;
+}
+
+.overlay {
+  position: absolute;
+  /* display: flex; */
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+  /* background: rgba(0,0,0,.1); */
+}
+.overlay h1 {
+  margin-top: 30px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .8);
+  font-size: 40px;
+}
