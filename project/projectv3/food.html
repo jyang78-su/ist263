@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <style>
+    header, 
+    section {
+      /* border-bottom: 1px solid black; */
+      overflow: hidden;
+      padding: 20px 0;
+    }
+    figure {
+      width: 100%;
+    }
+    .rating-bar {
+      margin-top: 20px;
+    }
+    h5 {
+      margin: 0;
+    }
+    p {
+      margin-top: 5px;
+    }
+    .jumbotron {
+      height: calc(50vh - 55px);;
+      background: URL(./assets/img/food.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 0px!important;
+      text-align: center;
+      margin-top: 55px;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="home.html">LA INTRO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#laNavbar" aria-controls="navbar" aria-label="Toggle navbar" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+
+    <div class="collapse navbar-collapse" id="laNavbar">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="food.html">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="viewpoint.html">View Point</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="jumbotron" class="jumbotron text-light">
+    <h1 class="display-4 strong-shadow">Food IN LA</h1>
+    <p class="lead strong-shadow">Delicious food!</p>
+    <!-- <hr class="my-4"> -->
+  </div>
+  <div class="container">
+    <!-- 2 -->
+    <section id="middle-section">
+      <div class="flex-sb">
+        <!-- 2-left -->
+        <div class="card" style="max-width: 350px; flex: 1;">
+          <img class="card-img-top" src="assets/img/running-grooss.jpg" alt="Running grooss">
+          <div class="card-body">
+            <h5 class="card-title">Runing goose</h5>
+            <span class="stars">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9734;</span>
+            </span>
+            <a href="#" class="btn">Yelp Views</a>
+            <p class="card-text">Inspired by the widely undiscovered specialties of Central America and the Yucatan, the Goose is a celebration of southern California's hidden pockets of cultural influence. Serving takes on seafood, tropical foods, and types of cuisine not known to most Angelenos. </p>
+          </div>
+        </div>
+        <div style="flex: 1;" class="ml-4 flex-ver-sb">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250" style="height: 230px;">
+            <img class="card-img-right flex-auto d-none d-md-block" width="340" alt="Dave's hot chicken"   src="assets/img/dave's-hot-chicken.jpg" data-holder-rendered="true">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">Dave's Hot Chicken</strong>
+    
+              <p class="card-text mb-auto">Unlike any other burger place, this place serve you the most fresh chicken with the most delious sauce. I can make sure this place is better than any burger in America.</p>
+              <div class="mb-4">
+                <span class="stars" style="text-align: center;">
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9734;</span>
+                </span>
+                <a href="#" class="ml-2">Yelp Views</a>
+              </div>
+            </div>
+          </div>
+          <div class="card flex-md-row box-shadow h-md-250" style="height: 230px;">
+            <img class="card-img-right flex-auto d-none d-md-block" width="340" alt="Rocksugar southeast asian kitchen"   src="assets/img/rocksugar-southeast-asian-kitchen.jpg" data-holder-rendered="true">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">RockSugar Southeast Asian Kitchen</strong>
+    
+              <p class="card-text mb-auto">The best place you can get Thai food and drinks in LA. The high ceilings, the lighting, and decor. Every detail in this restaurant is fantastic.</p>
+              <div class="mb-4">
+                <span class="stars" style="text-align: center;">
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9733;</span>
+                  <span>&#9734;</span>
+                </span>
+                <a href="#" class="ml-2">Yelp Views</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+
+      </div>
+    </section>
+    <!-- 3 -->
+    <section id="bottom-section">
+      <div class="flex-sb">
+        <!-- 3-left -->
+        <div style="width: 400px;">
+          <img width="400" height="200" src="assets/img/bavel.jpg" alt="Bavel">
+          <div style="margin-top: 20px;">
+            <span>Bavel</span>
+            <span class="stars">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9734;</span>
+            </span>
+            <a href="#" class="btn">Yelp Views</a>
+          </div>
+          <article style="margin-top: 20px;">
+            This restaurant is a really good place for a family dinner and for the date. Their food is delicious and they serves all kind of food, Italian, American, Mexico.
+          </article>
+        </div>
+        <!-- 3-right -->
+        <div style="width: 400px;">
+          <img width="400" height="200" src="assets/img/perch.png" alt="Perch">
+          <div style="margin-top: 20px;">
+            <span>Perch</span>
+            <span class="stars">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9734;</span>
+            </span>
+            <a href="#" class="btn">Yelp Views</a>
+          </div>
+          <article style="margin-top: 20px;">
+            To be honest, this place has the best French food with a really beautiful city view. This restaurant makes you feel you are in French just by eating their pasta and while you are enjoying the LA city view. 
+          </article>
+        </div>
+      </div>
+    </section>
+    <footer class="mb-2" style="text-align: center;">
+      © Copyright 2020 Junhe Yang. All rights reserved.
+    </footer>
+  </div>
+  <script src="./assets/js/jquery-3.2.1.slim.min.js" ></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>

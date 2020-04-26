@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <style>
+    header, 
+    section {
+      /* border-bottom: 1px solid black; */
+      overflow: hidden;
+      padding: 20px 0;
+    }
+    figure {
+      width: 100%;
+    }
+    .rating-bar {
+      margin-top: 20px;
+    }
+    h5 {
+      margin: 0;
+    }
+    p {
+      margin-top: 5px;
+    }
+    .jumbotron {
+      /* height: calc(100vh - 55px); */
+      height: calc(50vh - 55px);;
+      background: URL(./assets/img/page3-view-point.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 0px!important;
+      text-align: center;
+      margin-top: 55px;
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="home.html">LA INTRO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#laNavbar" aria-controls="navbar" aria-label="Toggle navbar" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="laNavbar">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="food.html">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="viewpoint.html">View Point</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="jumbotron" class="jumbotron text-light">
+    <h1 class="display-4 strong-shadow">View Point</h1>
+    <p class="lead strong-shadow">Famouse View Point!</p>
+  </div>
+  <div class="container">
+    <!-- 2 -->
+    <section id="middle-section" class="mb-4">
+      <div class="flex-sb">
+        <!-- 2-left -->
+        <div class="card flex-md-row mb-4 box-shadow h-md-250" style="height: 250px;">
+          <img class="card-img-right flex-auto d-none d-md-block" width="200" alt="Griffith observatory"   src="assets/img/griffith-observatory.jpg" data-holder-rendered="true">
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-primary">Griffith Observatory</strong>
+  
+            <p class="card-text mb-auto">A quintessential LA icon that commands marvelous views. There's a lot of interactive and educational activities focusing on astronomy. Never miss the telescope, you will be able to see certain planets</p>
+            <div class="mb-4">
+              <span class="stars" style="text-align: center;">
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+              </span>
+              <a href="#" class="ml-2">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="card flex-md-row box-shadow h-md-250" style="height: 250px;">
+          <img class="card-img-right flex-auto d-none d-md-block" width="200" alt="J.Paul Getty museum"   src="assets/img/j.paul-getty-museum.jpg" data-holder-rendered="true">
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-primary">J.Paul Getty Museum</strong>
+  
+            <p class="card-text mb-auto">This place is a great way to spend the day. Have a cozy picnic on the lawn, take amazing photos of surrounding city and/or architecture, and walk through the galleries to explore the many pieces on display.</p>
+            <div class="mb-4">
+              <span class="stars" style="text-align: center;">
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9733;</span>
+                <span>&#9734;</span>
+              </span>
+              <a href="#" class="ml-2">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 3 -->
+    <section class="mb-4">
+      <div class="card-deck">
+        <div class="card" style="text-align: center;">
+          <img class="card-img-top" src="assets/img/palisades-park.jpg" alt="Palisades park">
+          <div class="card-body">
+            <div class="stars mb-4" >
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9734;</span>
+            </div>
+            <h5 class="card-title">Paliades Park</h5>
+            <p class="card-text">This place can see the Santa Monica Beach. This park features some of the city’s most magnificent sunsets & ocean views. It’s one of the city’s oldest parks.</p>
+          </div>
+        </div>
+        <div class="card" style="text-align: center;">
+          <img class="card-img-top" src="assets/img/shutters-on-the-beach.jpg" alt="Shutters on the beach">
+          <div class="card-body">
+            <div class="stars mb-4" >
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9734;</span>
+            </div>
+            <h5 class="card-title">Shutters on the Beach</h5>
+            <p class="card-text">The famous Shutters on the Beach is perhaps the classiest hotel game on the shore--it has balconies on all 198 rooms, & direct access to the beach. Some rooms have fireplaces or jacuzzis.</p>
+          </div>
+        </div>
+        <div class="card" style="text-align: center;">
+          <img class="card-img-top" src="assets/img/soho-house.png" alt="Soho house">
+          <div class="card-body">
+            <div class="stars mb-4" >
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9734;</span>
+            </div>
+            <h5 class="card-title">Soho House</h5>
+            <p class="card-text">This place is really good for people go during the night time have a cocktail and enjoy the Los Angeles beautiful night view.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="mb-2" style="text-align: center;">
+      © Copyright 2020 Junhe Yang. All rights reserved.
+    </footer>
+  </div>
+  <script src="./assets/js/jquery-3.2.1.slim.min.js" ></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
